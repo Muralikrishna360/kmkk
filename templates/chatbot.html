@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chatbot</title>
+</head>
+<body>
+<div>
+    <form action="chat">
+        {% csrf_token %}
+        <input type="text" placeholder="message us.." name="text">
+        <input type="submit" placeholder="send">
+    </form>
+</div>
+</body>
+</html>
